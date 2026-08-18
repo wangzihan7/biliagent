@@ -1,0 +1,17 @@
+langchain==0.3.3
+langchain_community==0.3.2
+langchain_openai==0.2.2
+faiss-cpu==1.9.0
+langgraph==0.2.35
+fastapi==0.115.2
+pydantic==2.7.4
+sse_starlette==2.1.3
+uvicorn==0.27.1
+pandas==2.1.4
+openpyxl==3.0.10
+jieba==0.42.1
+sqlalchemy==2.0.23
+pymysql==1.1.0
+python-dotenv==1.0.0
+requests==2.32.3
+typing_extensions==4.15.0

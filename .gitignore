@@ -1,0 +1,37 @@
+# ===== 绝对不能提交的 =====
+# 含硅基流动 API Key、B 站登录 Cookie、MySQL 密码
+.env
+*.env
+!.env.example
+!frontend/.env.example
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+.venv/
+env/
+venv/
+
+# ===== 前端 =====
+frontend/node_modules/
+frontend/.vite/
+frontend/dist/
+*.local
+
+# ===== 生成 / 缓存 / 运行数据 =====
+# 向量索引，可从 MySQL 重建
+vectorstores/
+# 爬虫运行时落盘的评论和弹幕
+runs/
+*.sqlite
+*.log
+
+# ===== 编辑器 / 工具 / 系统 =====
+.idea/
+.vscode/
+# Claude Code 的本地权限配置，含绝对路径，不该共享
+.claude/
+Thumbs.db
+.DS_Store

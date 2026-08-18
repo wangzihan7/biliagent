@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles for BiliAgent frontend */
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* 以浅色为基础，整体更适合数据分析 / 文档阅读 */
+  @apply bg-slate-50 text-slate-900 font-sans;
+}
+
+a {
+  @apply text-sky-600 hover:text-sky-500;
+}
+
+.app-gradient-bg {
+  background:
+    radial-gradient(circle at top, rgba(56, 189, 248, 0.08), transparent 55%),
+    #f3f5fb;
+}
